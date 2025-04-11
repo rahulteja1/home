@@ -144,7 +144,7 @@ const experiences = {
     //   role: 'Front-End Developer',
     //   companylogo: require('../assets/img/boeing.png'),
     //   date: 'May 2017 – May 2018',
-    },
+    // },
   ]
 }
 
