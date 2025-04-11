@@ -136,7 +136,7 @@ const experiences = {
   data: [
     {
       role: 'Data Scientist',
-      Company : 'Pitney Bowes'// Here Add Company Name
+      Company : 'Pitney Bowes',// Here Add Company Name
       companylogo: require('../assets/img/pb.png'),
       date: 'June 2018 – Present',
     },
