@@ -67,7 +67,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "rahulteja01", // your GitHub username
-  reposLength: 'auro', // disables auto-fetching recent repos
+  reposLength: 4, // disables auto-fetching recent repos
   specificRepos: ["RFM-Analysis-for-Customer-Segmentation", "Music-Generation-Using-LSTM", "Digital-Handwriting-Recognition-using-Hand-Tracking-by-using-Media-pipe-and-OpenCV-libraries", "Kaggle-Survey-Data-Scientists-in-USA"], // replace with your actual repo names
 };
 
