@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Rahul Teja",
   middleName: "",
   lastName: "Bolloju",
-  message: " Passionate about changing the world with technology. ",
+  message: "Passionate about developing strategies that enhance business performance and help companies achieve their full potential through data-driven solutions.",
   icons: [
     {
       image: "fa-github",
@@ -52,7 +52,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/pic.png"),
-  imageSize: 375,
+  imageSize: "auto",
   message:
     "I am Rahul Teja, an Entrepreneurial driven Analytical Data Science Strategist focused on leveraging data science and analytics to drive growth and innovation. Passionate about developing strategies that enhance business performance and help companies achieve their full potential through data-driven solutions.",
   resume: "https://github.com/rahulteja1/home/blob/master/src/editable-stuff/resume.pdf",
@@ -66,17 +66,18 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "rahulteja01", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "rahulteja01", // your GitHub username
+  reposLength: 0, // disables auto-fetching recent repos
+  specificRepos: ["RFM-Analysis-for-Customer-Segmentation", "Music-Generation-Using-LSTM", "Digital-Handwriting-Recognition-using-Hand-Tracking-by-using-Media-pipe-and-OpenCV-libraries", "Kaggle-Survey-Data-Scientists-in-USA"], // replace with your actual repo names
 };
+
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "",
   images: [
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
@@ -103,16 +104,16 @@ const skills = {
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "Machine Learning & Optimization", value: 85 },
+    { name: "Data Visualization", value: 75 },
+    { name: " and Cloud Technologies", value: 75 },
     { name: "HTML/CSS", value: 55 },
     { name: "C#", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 95 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
@@ -136,15 +137,28 @@ const experiences = {
   data: [
     {
       role: 'Data Scientist',
-      Company : 'Pitney Bowes',// Here Add Company Name
+      // Company : 'Pitney Bowes',// Here Add Company Name
       companylogo: require('../assets/img/pb.png'),
-      date: 'June 2018 – Present',
+      date: 'Augusst 2024 – Present',
+      
+      role: 'Data Science Intern',
+      date: 'July 2023 – August 2023',
     },
-    // {
-    //   role: 'Front-End Developer',
-    //   companylogo: require('../assets/img/boeing.png'),
-    //   date: 'May 2017 – May 2018',
-    // },
+    {
+      role: 'Data Analyst',
+      companylogo: require('../assets/img/fonkR.png'),
+      date: 'June 2020 – July 2022',
+    },
+    {
+      role: 'Data Analyst',
+      companylogo: require('../assets/img/vinx.png'),
+      date: 'May 2020 – June 2020',
+    },
+    {
+      role: 'Data Science Intern',
+      companylogo: require('../assets/img/sb.png'),
+      date: 'May 2019 – June 2019',
+    },
   ]
 }
 
