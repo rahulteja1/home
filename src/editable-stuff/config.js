@@ -140,8 +140,11 @@ const experiences = {
       // Company : 'Pitney Bowes',// Here Add Company Name
       companylogo: require('../assets/img/pb.png'),
       date: 'Augusst 2024 – Present',
-      
-      role: 'Data Science Intern',
+    },
+    {
+      role: 'Data Science Intern',,
+      // Company : 'Pitney Bowes',// Here Add Company Name
+      companylogo: require('../assets/img/pb.png'),
       date: 'July 2023 – August 2023',
     },
     {
