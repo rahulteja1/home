@@ -106,7 +106,7 @@ const skills = {
     { name: "Data Structures", value: 85 },
     { name: "Machine Learning & Optimization", value: 85 },
     { name: "Data Visualization", value: 75 },
-    { name: " and Cloud Technologies", value: 75 },
+    { name: "Cloud Technologies", value: 75 },
     { name: "HTML/CSS", value: 55 },
     { name: "C#", value: 80 },
   ],
