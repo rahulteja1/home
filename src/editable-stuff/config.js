@@ -55,7 +55,7 @@ const about = {
   imageSize: "auto",
   message:
     "I am Rahul Teja, an Entrepreneurial driven Analytical Data Science Strategist focused on leveraging data science and analytics to drive growth and innovation. Passionate about developing strategies that enhance business performance and help companies achieve their full potential through data-driven solutions.",
-  resume: "https://github.com/rahulteja1/home/blob/master/src/editable-stuff/resume.pdf",
+  resume: "https://drive.google.com/file/d/1uXNoU1nZYJNyWRTy7ebrTq1EF-RvcDqE/view?usp=sharing",
 };
 
 // PROJECTS SECTION
