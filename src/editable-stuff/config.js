@@ -74,7 +74,7 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: true,
+  show: false,
   heading: "Leadership",
   message:
     "",
