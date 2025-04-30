@@ -135,12 +135,12 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
-    {
-      role: 'Data Scientist',
-      // Company : 'Pitney Bowes',// Here Add Company Name
-      companylogo: require('../assets/img/pb.png'),
-      date: 'Augusst 2024 – Present',
-    },
+    // {
+    //   role: 'Data Scientist',
+    //   // Company : 'Pitney Bowes',// Here Add Company Name
+    //   companylogo: require('../assets/img/pb.png'),
+    //   date: 'Augusst 2024 – Present',
+    // },
     {
       role: 'Data Science Intern',
       // Company : 'Pitney Bowes',// Here Add Company Name
